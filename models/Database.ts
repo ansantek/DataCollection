@@ -2,15 +2,18 @@
 
 import * as async from 'async';
 import * as mysql from 'mysql';
+import {configType, getConfigObject} from '../services/config';
 
 interface Callback {(err : Error, results: any)}
 
-export var pool=mysql.createPool({
-    host: 'localhost',
-    user: 'Larry',
-    password: 'nalanala',
-    database: 'freshair',
-    connectionLimit: 10
+var ConfigObject:configType =getConfigObject();
+
+var pool=mysql.createPool({
+    host: ConfigObject.host,
+    user: ConfigObject.user,
+    password: ConfigObject.password,
+    database: ConfigObject.database,
+    connectionLimit: ConfigObject.connectionLimit
 });
 
 export interface DeviceRecord {

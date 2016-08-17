@@ -6,6 +6,11 @@ import * as path from 'path';
 export interface configType {
     devicetokensecret?:string;
     tokenexpiration?:number;
+    host?:string;
+    user?:string;
+    password?:string;
+    database?:string;
+    connectionLimit?:number;
 }
 
 var ConfigObject : configType;
