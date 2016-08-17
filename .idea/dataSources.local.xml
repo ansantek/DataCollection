@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - freshair@localhost" uuid="70d6be14-371a-4a63-b3b7-e9f81b73f011">
+      <secret-storage>master_key</secret-storage>
+      <user-name>Larry</user-name>
+      <introspection-scope>freshair:*</introspection-scope>
+      <resolve-scope>freshair:*</resolve-scope>
+    </data-source>
+  </component>
+</project>

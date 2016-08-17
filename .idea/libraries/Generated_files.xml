@@ -1,0 +1,81 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/models/Database.js" />
+        <item url="file://$PROJECT_DIR$/test/TestDataEntry.js" />
+        <item url="file://$PROJECT_DIR$/controllers/collectEvents.js" />
+        <item url="file://$PROJECT_DIR$/middleware/logDevice.js" />
+        <item url="file://$PROJECT_DIR$/controllers/collectData.js" />
+        <item url="file://$PROJECT_DIR$/controllers/generateToken.js" />
+        <item url="file://$PROJECT_DIR$/controllers/taskMgr.js" />
+        <item url="file://$PROJECT_DIR$/models/DeviceData.js" />
+        <item url="file://$PROJECT_DIR$/middleware/validateDataRecords.js" />
+        <item url="file://$PROJECT_DIR$/middleware/validateDevice.js" />
+        <item url="file://$PROJECT_DIR$/middleware/validateEventRecords.js" />
+        <item url="file://$PROJECT_DIR$/test/TestEventEntry.js" />
+        <item url="file://$PROJECT_DIR$/services/config.js" />
+        <item url="file://$PROJECT_DIR$/middleware/decryptPacket.js" />
+        <item url="file://$PROJECT_DIR$/services/config.js" />
+        <item url="file://$PROJECT_DIR$/test/TestDatabase.js" />
+        <item url="file://$PROJECT_DIR$/app.js" />
+        <item url="file://$PROJECT_DIR$/controllers/firmwareController.js" />
+        <item url="file://$PROJECT_DIR$/middleware/createCollectionObject.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/js/Database.js" />
+      <root url="file://$PROJECT_DIR$/js/Database.js" />
+      <root url="file://$PROJECT_DIR$/js/index.js" />
+      <root url="file://$PROJECT_DIR$/js/collectEvents.js" />
+      <root url="file://$PROJECT_DIR$/js/acquireDBConnection.js" />
+      <root url="file://$PROJECT_DIR$/js/DeviceData.js" />
+      <root url="file://$PROJECT_DIR$/js/collectData.js" />
+      <root url="file://$PROJECT_DIR$/js/validateDevice.js" />
+      <root url="file://$PROJECT_DIR$/js/Database.js" />
+      <root url="file://$PROJECT_DIR$/js/index.js" />
+      <root url="file://$PROJECT_DIR$/js/collectEvents.js" />
+      <root url="file://$PROJECT_DIR$/js/acquireDBConnection.js" />
+      <root url="file://$PROJECT_DIR$/js/DeviceData.js" />
+      <root url="file://$PROJECT_DIR$/js/collectData.js" />
+      <root url="file://$PROJECT_DIR$/js/validateDevice.js" />
+      <root url="file://$PROJECT_DIR$/js/DataCollection/app.js" />
+      <root url="file://$PROJECT_DIR$/js/DataCollection/app.js" />
+      <root url="file://$PROJECT_DIR$/js/DataCollection/app.js" />
+      <root url="file://$PROJECT_DIR$/js/middleware/validateDevice.js" />
+      <root url="file://$PROJECT_DIR$/js/controllers/collectEvents.js" />
+      <root url="file://$PROJECT_DIR$/js/app.js" />
+      <root url="file://$PROJECT_DIR$/js/controllers/collectData.js" />
+      <root url="file://$PROJECT_DIR$/js/controllers/collectEvents.js" />
+      <root url="file://$PROJECT_DIR$/js/models/Database.js" />
+      <root url="file://$PROJECT_DIR$/js/middleware/validateDevice.js" />
+      <root url="file://$PROJECT_DIR$/js/models/Database.js" />
+      <root url="file://$PROJECT_DIR$/js/app.js" />
+      <root url="file://$PROJECT_DIR$/js/controllers/collectData.js" />
+      <root url="file://$PROJECT_DIR$/middleware/validateToken.js" />
+      <root url="file://$PROJECT_DIR$/middleware/validateToken.js" />
+      <root url="file://$PROJECT_DIR$/controllers/generateToken.js" />
+      <root url="file://$PROJECT_DIR$/models/DeviceData.js" />
+      <root url="file://$PROJECT_DIR$/models/Database.js" />
+      <root url="file://$PROJECT_DIR$/test/TestDataEntry.js" />
+      <root url="file://$PROJECT_DIR$/controllers/collectEvents.js" />
+      <root url="file://$PROJECT_DIR$/middleware/logDevice.js" />
+      <root url="file://$PROJECT_DIR$/controllers/collectData.js" />
+      <root url="file://$PROJECT_DIR$/controllers/generateToken.js" />
+      <root url="file://$PROJECT_DIR$/controllers/taskMgr.js" />
+      <root url="file://$PROJECT_DIR$/models/DeviceData.js" />
+      <root url="file://$PROJECT_DIR$/middleware/validateDataRecords.js" />
+      <root url="file://$PROJECT_DIR$/middleware/validateDevice.js" />
+      <root url="file://$PROJECT_DIR$/middleware/validateEventRecords.js" />
+      <root url="file://$PROJECT_DIR$/test/TestEventEntry.js" />
+      <root url="file://$PROJECT_DIR$/services/config.js" />
+      <root url="file://$PROJECT_DIR$/middleware/decryptPacket.js" />
+      <root url="file://$PROJECT_DIR$/services/config.js" />
+      <root url="file://$PROJECT_DIR$/test/TestDatabase.js" />
+      <root url="file://$PROJECT_DIR$/app.js" />
+      <root url="file://$PROJECT_DIR$/controllers/firmwareController.js" />
+      <root url="file://$PROJECT_DIR$/middleware/createCollectionObject.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
