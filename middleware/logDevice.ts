@@ -1,17 +1,14 @@
-/**
- * Created by larry on 2/18/15.
- */
-///<reference path='../typings/node/node.d.ts'/>
-///<reference path='../typings/express/express.d.ts'/>
-import express=require('express');
-import Database=require('../models/Database');
+/// <reference path="../typings/index.d.ts" />
+
+import * as express from 'express';
+import * as Database from '../models/Database';
 
 interface logRequest extends express.Request {
     Logging : number;
     Device:Database.DeviceRecord;
 }
 
-function logRequest() {
+export function logRequest() {
     return function (request:logRequest, response:express.Response, next:Function) {
         console.log('logRequest-Logging:'+request.Device.Logging);
         console.log(request.body);
@@ -22,5 +19,3 @@ function logRequest() {
         })
     }
 }
-
-export=logRequest;

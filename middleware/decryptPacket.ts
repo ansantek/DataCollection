@@ -1,13 +1,8 @@
-/**
- * Created by larry on 1/25/15.
- */
-///<reference path='../typings/node/node.d.ts'/>
-///<reference path='../typings/express/express.d.ts'/>
+/// <reference path="../typings/index.d.ts" />
 
-import Express=require('express');
-function decryptPacket() {
-    return function (request:Express.Request, response:Express.Response, next:Function) {
+import * as express from'express';
+export function decryptPacket() {
+    return function (request:express.Request, response:express.Response, next:Function) {
         next();  //do nothing for now
     }
 }
-export=decryptPacket;

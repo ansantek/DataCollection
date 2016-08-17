@@ -16,7 +16,7 @@ var ConfigObject : configType;
 export function getConfigObject() : configType {
     if(!ConfigObject){
         ConfigObject={};
-        var filePath=path.resolve(__dirname,'..')+'/freshairdata.cfg';
+        var filePath=path.resolve(__dirname,'..')+'/DataCollection.cfg';
         var configFile=fs.readFileSync(filePath,{encoding:'utf8'});
         var configStrings=configFile.split('\n');
         for (var i=0; i<configStrings.length; i++){

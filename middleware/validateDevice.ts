@@ -1,10 +1,7 @@
-/**
- * Created by larry on 1/19/15.
- */
 /// <reference path="../typings/index.d.ts" />
 
 import * as express from 'express';
-import Database from '../models/Database';
+import * as Database from '../models/Database';
 
 interface DataEventRequest extends express.Request {
     DeviceID : string;
@@ -14,7 +11,7 @@ interface DataEventRequest extends express.Request {
 var NoDeviceError:Error={name:'DEVICEUNDEF', message:'No such device defined'};
 var MultipleDeviceError:Error={name:'MULTIPLEDEVICES', message:'Multiple devices with same name'};
 
-function validateDevice(){
+export function validateDevice(){
     return function(request:DataEventRequest, response:express.Response, next: Function){
         Database.GetDevice(request.body.DeviceID, function(err, results:Database.DeviceRecord[]){
             if (err) return next(err);
@@ -26,4 +23,4 @@ function validateDevice(){
     }
 }
 
-export=validateDevice;
+//export=validateDevice;

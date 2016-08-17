@@ -1,21 +1,17 @@
-/**
- * Created by larry on 1/25/15.
- */
-///<reference path='../typings/node/node.d.ts'/>
-///<reference path='../typings/express/express.d.ts'/>
+/// <reference path="../typings/index.d.ts" />
 
-import Express=require('express');
-import Database=require('../models/Database');
+import * as express from 'express';
+import * as Database from '../models/Database';
 
-interface collectionRequest extends Express.Request {
+interface collectionRequest extends express.Request {
     collectionObject : any;
 }
 
 var BadDateError:Error={name:'BADTIMESTAMP', message:'Bad date format'};
 var FieldMissingError:Error={name:'FIELDMISSING', message:'Data record field missing'};
 
-function validateEventRecords() {
-    return function (request:collectionRequest, response:Express.Response, next:Function) {
+export function validateEventRecords() {
+    return function (request:collectionRequest, response:express.Response, next:Function) {
         var Data = request.collectionObject;
         var Record : Database.EventItem;
         var i: number;
@@ -34,4 +30,3 @@ function validateEventRecords() {
         next();
     }
 }
-export=validateEventRecords;

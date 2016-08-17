@@ -10,7 +10,7 @@ var DataIsEmptyError:Error={name:'DATAISEMPTY', message:'Data array is empty'};
 interface collectionRequest extends express.Request {
     collectionObject : any;
 }
-function createCollectionObject() {
+export function createCollectionObject() {
     return function (request:collectionRequest, response:express.Response, next:Function) {
         var collectionObject=request.body.Data;
 
@@ -22,4 +22,3 @@ function createCollectionObject() {
         next();
     }
 }
-export=createCollectionObject;
